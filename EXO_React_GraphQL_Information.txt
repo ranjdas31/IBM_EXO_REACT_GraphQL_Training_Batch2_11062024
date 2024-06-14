@@ -1,0 +1,92 @@
+React Project Testing Link : 
+Udamy Course Link:
+------------------
+https://ibm-learning.udemy.com/course/react-testing-library-and-jest/learn/lecture/35701596#overview
+
+GraphQL Link:
+https://ibm-learning.udemy.com/course/graphql-by-example/learn/lecture/36699756#overview
+
+Drawing Tool:
+
+https://excalidraw.com/
+https://create-react-app.dev/
+
+npx create-react-app app-name
+npm -v
+node -v
+npx -v
+npm i react-router-dom
+npx create-react-app my-app
+npx create-react-app .
+cd my-app
+npm start
+npm -i axios
+npm update axios
+npm un axios
+npm run test
+npm run build
+npm install @apollo/server graphql
+npm install @graphql-tools/schema
+npm install @graphql-tools/utils
+node server.js
+nvm list
+nmp use v18
+npm -v
+http://localhost:3000/
+
+react-router-dom
+
+1. BrowserRouter - init routing in react app
+2. Routes -> Handle child routes
+3. Route
+4. Link
+5. NavLink
+6. Navigate
+7.Outlet
+8.useParams
+9.useNavigate
+
+Day 1 : 12-06-2024
+----------------------
+Graph-QL
+Query the REST API
+GrapgQL is a query language for API, GraphQL query in API rather databases, Web Client has full controll to which field to fetch from the server.
+facbook is developed GrapgQL invented in 2012
+Schema definition language (SDL) define a GrapgQL schema
+
+REST is depends on URI but GraphQL based on schema
+
+https://graphql.org/
+Graph-QL:
+Udamy Link : https://ibm-learning.udemy.com/course/graphql-by-example/learn/lecture/36699756#overview
+Query language of API
+
+Day 2: 13-06-2024
+-------------------------
+https://graphql.org/learn/schema/
+
+https://ibm.ent.box.com/folder/268288266010
+
+Steps to create a project:
+1. Create a folder structure
+2. open the folder structure in VS Code
+3. create two files
+	a. package.json
+	b. server.js
+4. Create the structute in pakage.json
+{
+    "name": "hello-world-server",
+    "private": true,
+    "type": "module"
+}
+5. Open the new terminal from VS code (Terminal-> New Terminal)
+6. Run the command "npm install @apollo/server graphql" and automatically open the node_modules folder structure
+
+5 scaller type available in GraphQL
+1. Int 2. String 3.Float 4.Boolean 5.ID
+
+Day 3: 14-06-2024
+------------------------------
+Mutation
+Fake Rest API:
+https://jsonplaceholder.typicode.com/
