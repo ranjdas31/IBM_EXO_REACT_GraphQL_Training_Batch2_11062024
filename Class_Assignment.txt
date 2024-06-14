@@ -1,9 +1,6 @@
-Day1: Assignment
-Setup the workspace
-
-Day 2: Assignment
+Day 1: Assignment
 Create a schema to demonstrate Query, Type, Enums, Interfaces and Unions.
 
-Day 3: Assignment
+Day 2: Assignment
 Create an schema that represents nested data structure. 
 Create an resolver to fulfill the nested data structure.
