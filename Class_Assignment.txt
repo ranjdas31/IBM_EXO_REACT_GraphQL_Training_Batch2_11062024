@@ -1,7 +1,7 @@
-Day1.
+Day1: Assignment
 Setup the workspace
 
-Day 2.
+Day 2: Assignment
 Create a schema to demonstrate Query, Type, Enums, Interfaces and Unions.
 
 Day 3: Assignment
