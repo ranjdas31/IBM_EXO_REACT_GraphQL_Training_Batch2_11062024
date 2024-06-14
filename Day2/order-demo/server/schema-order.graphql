@@ -1,0 +1,59 @@
+
+# type Query{
+
+#     greeting:String
+# }
+const { ApolloServer, typeDefs } = require("apollo-server");
+
+
+
+const typeDefs = ` #graphql
+schema {
+    query : Query
+}
+
+type Query {
+    orders: [OrderDetails]
+    shippings: [Shipping!]!
+}
+
+
+interface Product
+{
+    prodId: Int
+    prodName: String
+    price: Int
+}
+
+type CurrentOrderDetails implements Product {
+      
+      prodId: Int
+      prodName: String
+      price: Int
+      orderid: Int
+      qty: Int
+      orderdate: String
+}
+
+type ArchiveOrderDetails implements Product {
+      
+      prodId: Int
+      prodName: String
+      price: Int
+      orderid: Int
+      qty: Int
+      orderdate: String
+}
+
+union OrderDetails = CurrentOrderDetails | ArchiveOrderDetails
+
+enum Delivery {
+    STH
+    STO
+}
+
+type Shipping {
+    delivery: Delivery!
+}
+
+ `;
