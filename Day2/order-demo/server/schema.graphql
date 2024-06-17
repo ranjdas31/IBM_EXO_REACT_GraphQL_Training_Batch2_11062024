@@ -1,0 +1,73 @@
+""" type Query {
+    greeting: String
+}  """
+
+type Query {
+    orders: [Order]
+    customer: Customer
+    address: Address
+}
+
+type Mutation {
+    createOrder(prodId: String , prodName: String ,prodDesc: String ,prodUnitPrice: Int ,orderId: String ,orderTotal: Int, orderQty: Int customer: String): Order
+}
+# type Orders {    
+#       orderid: String
+#       price: Int
+#       qty: Int
+# }
+
+interface Product
+{
+    prodId: String
+    prodName: String
+    prodDesc: String
+    prodUnitPrice: Int
+}
+type Order implements Product {
+
+   prodId: String!
+   prodName: String 
+   prodDesc: String
+   prodUnitPrice: Int  
+   orderId: String
+   orderTotal: Int
+   orderQty: Int
+   createdAt: String
+   customer: Customer
+  
+  
+}
+
+ type Customer{
+
+     custId: String
+     custName: String
+     custEmail: String
+     custPhone: String
+     address: Address
+ }
+
+ type Address{
+
+     addressId: String
+     street: String
+     aptNo: String
+     pinCode: String
+     state: String
+     country: String
+ }
+
+
+# type ArchiveOrderDetails implements Product {
+      
+#    prodId: String
+#    prodName: String 
+#    price: Int  
+#    orderid: String
+#    orderTotal: Int
+#    qty: Int
+
+#  }
+
+#  union OrderDetails = CurrentOrderDetails | ArchiveOrderDetails
