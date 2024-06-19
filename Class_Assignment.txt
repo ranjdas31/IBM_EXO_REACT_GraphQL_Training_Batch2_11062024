@@ -4,3 +4,27 @@ Create a schema to demonstrate Query, Type, Enums, Interfaces and Unions.
 Day 2: Assignment
 Create an schema that represents nested data structure. 
 Create an resolver to fulfill the nested data structure.
+
+Day 3: Assignemnt
+Mutation
+
+Day 4 :
+React Training Day 1
+
+Assignment:
+	GraphQL Setup for the React assignments.
+			Create a product and category table using SQLite.
+			Define the schema for product and category.
+			Create resolvers for product and category.
+			
+
+	Useful Links:
+
+		ES6 Javascript: The Complete Developer's Guide
+		https://ibm-learning.udemy.com/course/javascript-es6-tutorial/?src=sac&kw=ES6
+
+		Virtual DOM
+		https://www.geeksforgeeks.org/reactjs-virtual-dom/
+
+		React JS Portfolio Project - React Training for BeginnersBuild
+		https://ibm-learning.udemy.com/course/react-for-beginners-build-a-quiz-while-learning-react/learn/lecture/35588738#overview
